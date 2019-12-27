@@ -1,0 +1,110 @@
+// METHOD 1: Grid numbers.
+//.container {
+//  background-color: #eee;
+//  width: 1000px;
+//  height: 1000px;
+//  margin: 30px auto;
+//
+//  display: grid;
+//  grid-template-columns: repeat(3, 1fr) 0.8fr;
+//  grid-template-rows: 0.8fr repeat(3, 1fr) 0.8fr;
+//  grid-gap: 30px;
+//
+//  & > * {
+//    color: white;
+//    padding: 20px;
+//    font-size: 30px;
+//    font-family: sans-serif;
+//    background-color: red;
+//    font-weight: bold;
+//  }
+//}
+//.header {
+//  grid-column: 1 / -1;
+//}
+//.sidebar {
+//  grid-column: 4 / 5;
+//  grid-row: 2 / span 3;
+//}
+//.main {
+//  grid-column: 1 / span 3;
+//  grid-row: 3 / span 2;
+//}
+//.footer {
+//  grid-column: 1 / -1;
+//}
+
+// METHOD 2: Grid names
+//.container {
+//  background-color: #eee;
+//  width: 1000px;
+//  height: 1000px;
+//  margin: 30px auto;
+//
+//  display: grid;
+//  grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 0.8fr [grid-end];
+//  grid-template-rows: [header-start] 0.8fr [header-end box-start] 1fr [box-end main-start] repeat(2, 1fr) [main-end footer-start] 0.8fr [footer-end];
+//  grid-gap: 30px;
+//
+//  & > * {
+//    color: white;
+//    padding: 20px;
+//    font-size: 30px;
+//    font-family: sans-serif;
+//    background-color: red;
+//    font-weight: bold;
+//  }
+//}
+//.header {
+//  grid-column: col-start 1 / grid-end;
+//}
+//.sidebar {
+//  grid-column: col-end 3 / grid-end;
+//  grid-row: box-start / main-end;
+//}
+//.main {
+//  grid-column: col-start 1 / col-end 3;
+//  grid-row: main-start / main-end;
+//}
+//.footer {
+//  grid-column: col-start 1 / grid-end;
+//}
+
+// METHOD 3: Area names
+.container {
+  background-color: #eee;
+  width: 1000px;
+  height: 1000px;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-rows: 0.8fr repeat(3, 1fr) 0.8fr;
+  grid-template-columns: repeat(3, 1fr) 0.8fr;
+  grid-template-areas: "head head head head"
+                       "box box box side"
+                       "main main main side"
+                       "main main main side"
+                       "foot foot foot foot";
+  grid-gap: 30px;
+
+  & > * {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: red;
+    font-weight: bold;
+  }
+}
+.header {
+  grid-area: head;
+}
+.sidebar {
+  grid-area: side;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: foot;
+}

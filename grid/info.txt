@@ -1,0 +1,59 @@
+IDEA file watcher:
+0. Install node.js
+1. npm install -g sass
+2. Install and enable the File Watchers plugin for IDEA
+3. Settings/Preferences -> File Watchers -> + SCSS (for project)
+------------------------------------------------
+.container>.item.item--$*3  +TAB
+
+<div class="container">
+  <div class="item item--1"></div>
+  <div class="item item--2"></div>
+  <div class="item item--3"></div>
+</div>
+-------------------------------------------------
+.feature{feature $}*3  +TAB
+
+<div class="feature">feature 1</div>
+<div class="feature">feature 2</div>
+<div class="feature">feature 3</div>
+-------------------------------------------------
+(figure.gallery__item.gallery__item--$>img.gallery__img[src="img/gal-$.jpeg"][alt="Gallery image $"])*3  +TAB
+
+<figure class="gallery__item gallery__item--1"><img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img"></figure>
+<figure class="gallery__item gallery__item--2"><img src="img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img"></figure>
+<figure class="gallery__item gallery__item--3"><img src="img/gal-3.jpeg" alt="Gallery image 3" class="gallery__img"></figure>
+-------------------------------------------------
+1rem - font size of root element. Default is 16px.
+
+    10px = 0.625rem
+    12px = 0.75rem
+    14px = 0.875rem
+    16px = 1rem (base)
+    18px = 1.125rem
+    20px = 1.25rem
+    24px = 1.5rem
+    30px = 1.875rem
+    32px = 2rem
+
+Jonathan Snook used a trick called “62.5%“:
+
+html { font-size: 62.5%; } /* =10px */
+body { font-size: 1.4rem; } /* =14px */
+h1 { font-size: 2.4rem; } /* =24px */
+-------------------------------------------------
+<p>250 m<sup>2</sup></p>
+250 m2
+-------------------------------------------------
+transform: translateY(-1rem) - 1 rem up;
+-------------------------------------------------
+& > * - all children selector;
+-------------------------------------------------
+Color filter with transparency 50%:
+background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(../img/back.jpg);
+-------------------------------------------------
+align-(items, content, self) - vertically.
+justify-(items, content, self) - horizontally.
+
+content - grid areas.
+items - content inside areas.

@@ -1,0 +1,16 @@
+0. Install node.js
+1. npm install -g sass
+2. Install and enable the File Watchers plugin for IDEA
+3. Settings/Preferences -> File Watchers -> + SCSS (for project)
+------------------------------------------------
+.container>.item.item--$*6  +TAB
+
+<div class="container">
+  <div class="item item--1"></div>
+  <div class="item item--2"></div>
+  <div class="item item--3"></div>
+  <div class="item item--4"></div>
+  <div class="item item--5"></div>
+  <div class="item item--6"></div>
+</div>
+-------------------------------------------------
