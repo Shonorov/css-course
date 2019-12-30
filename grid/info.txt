@@ -57,3 +57,18 @@ justify-(items, content, self) - horizontally.
 
 content - grid areas.
 items - content inside areas.
+-------------------------------------------------
+$bp-largest: 75em; // 1200px / 16px
+$bp-large: 62.5em; // 1000px / 16px
+$bp-medium: 50em;  // 800px / 16px
+$bp-small: 37.5em;  // 600px / 16px
+
+@media only screen and (max-width: $bp-large) {}
+-------------------------------------------------
+@supports (display: grid) {
+        // Reset fallback if browser support grid
+        width: auto;
+        margin-bottom: 0;
+    }
+-------------------------------------------------
+npm run build:css
