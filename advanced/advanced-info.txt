@@ -1,0 +1,102 @@
+3 Pillars: Responsive design, Maintainable and scalable code, web performance
+----------------------------------------------------
+CSS selector priority:
+
+Inline > ID > Class > Element
+----------------------------------------------------
+Default browser font size (1rem): 16px
+----------------------------------------------------
+inherit - keyword forces inheritance on certain value
+initial - keyword resets property to its initial value
+----------------------------------------------------
+Global reset:
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /*Enforce inheritance of box-sizing to inherit it from plugins*/
+    box-sizing: inherit;
+}
+html {
+    /*Do not overrides browser or user default font size*/
+    /*rem not supported by IE9*/
+    font-size: 62.5%;  /* 10px / 16px = 62.5% */
+}
+body {
+    box-sizing: border-box; /* borders and padding not added to box width/height */
+}
+----------------------------------------------------
+BEM - Block-Element-Modifier:
+.block__element--modifier {}
+----------------------------------------------------
+7-1 pattern:
+7 - different folders for partial SASS files:
+ -  base/
+ -  components/
+ -  layout/
+ -  pages/
+ -  themes/
+ -  abstracts/
+ -  vendors/
+1 - main SASS file to import other files into compiled CSS stylesheet.
+----------------------------------------------------
+Display part of block like polygon top-left/top-right/bot-right/bot-left:
+
+clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+----------------------------------------------------
+Position div in the center of parent:
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+----------------------------------------------------
+Fade in animation:
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.parent-div {
+    backface-visibility: hidden; // Removes shaking
+}
+.some-class {
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /*animation-delay: 1s;*/
+    /*animation-iteration-count: 2;*/
+}
+.other-class {
+    animation: moveInLeft 1s ease-out;
+}
+----------------------------------------------------
+Button simple animation:
+
+.btn:link,
+.btn:visited {
+    border-radius: 100px;
+    transition: all .2s; // Enable all animations
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2); // vertical horizontal blur color-with-opacity
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);  // Shadow lesser on click
+}
+----------------------------------------------------
