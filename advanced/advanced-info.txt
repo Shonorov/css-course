@@ -42,6 +42,86 @@ BEM - Block-Element-Modifier:
  -  vendors/
 1 - main SASS file to import other files into compiled CSS stylesheet.
 ----------------------------------------------------
+.nav {
+  li {
+    &:first-child {}
+    &:last-child {}
+  }
+}
+----------------------------------------------------
+Fix parent zero width when nested elements are floated (clear fix).
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: both;
+}
+----------------------------------------------------
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: both;
+  }
+}
+@mixin style-link-text {
+  text-transform: uppercase;
+  color: #fff;
+}
+@mixin color-text($color) {
+  text-transform: uppercase;
+  color: $color;
+}
+.someclass {
+  @include clearfix;
+  @include style-link-text;
+  @include color-text(#eee);
+}
+----------------------------------------------------
+@function divide($a, $b) {
+  return $a / $b;
+}
+.someclass {
+  color: darken(#aaa, 15%);
+  color: lighten(#aaa, 15%);
+  margin:  divide(60, 2) * 1px;
+}
+----------------------------------------------------
+%btn-placeholder {
+  padding: 10px;
+}
+.someclass {
+  @extend: %btn-placeholder;
+}
+.otherclass {
+  @extend: %btn-placeholder;
+}
+
+    ==
+
+.someclass, otherclass  {
+  padding: 10px;
+}
+----------------------------------------------------
+//Init project:
+npm init
+npm install node-sass --save-dev
+touch /sass/main.scss
+
+package.json:
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+
+// Watch scss file update and compile css:
+npm run compile:sass
+
+// Refresh browser on project update:
+npm install live-server -g
+cd C:\Projects\css-course\advanced\Natours
+live-server
+-> http://localhost:8080/
+----------------------------------------------------
 Display part of block like polygon top-left/top-right/bot-right/bot-left:
 
 clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);

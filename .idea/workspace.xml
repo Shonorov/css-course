@@ -2,41 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd6bd49-d318-4af3-9a54-bfdafa53468a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/hero-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/logo-green-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/logo-green-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/logo-green-small-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/logo-green-small-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-1-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-2-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/nat-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/img/video.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/advanced-info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/box-sizing-border-box.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/box-types(block,inline).PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/css-inheritance.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/css-units.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/css-value-calc.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/positioning(normal,float,absolute).PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/stacking-context(z-index).PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/base/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/base/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/advanced-info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/advanced-info.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577273591730</updated>
-      <workItem from="1577273592896" duration="65640000" />
+      <workItem from="1577273592896" duration="72820000" />
     </task>
     <task id="LOCAL-00001" summary="nexter styled">
       <created>1577456264221</created>
@@ -126,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577693825743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="natours header and animations + BEM">
+      <created>1577717573125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577717573125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +135,7 @@
     <MESSAGE value="nexter styled" />
     <MESSAGE value="media queries added" />
     <MESSAGE value="nexter finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="nexter finished" />
+    <MESSAGE value="natours header and animations + BEM" />
+    <option name="LAST_COMMIT_MESSAGE" value="natours header and animations + BEM" />
   </component>
 </project>
