@@ -61,6 +61,10 @@ Select all child elements containing "col-":
 
 [class *= "col-"] {}
 ----------------------------------------------------
+Direct children selector:
+
+& > * {}
+----------------------------------------------------
 Fix parent zero width when nested elements are floated (clear fix).
 
 .clearfix::after {
