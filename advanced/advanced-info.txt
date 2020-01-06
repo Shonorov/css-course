@@ -49,12 +49,24 @@ BEM - Block-Element-Modifier:
   }
 }
 ----------------------------------------------------
+Select all child elements starting with "col-":
+
+[class ^= "col-"] {}
+----------------------------------------------------
+Select all child elements ending with "col-":
+
+[class $= "col-"] {}
+----------------------------------------------------
+Select all child elements containing "col-":
+
+[class *= "col-"] {}
+----------------------------------------------------
 Fix parent zero width when nested elements are floated (clear fix).
 
 .clearfix::after {
   content: "";
   clear: both;
-  display: both;
+  display: table;
 }
 ----------------------------------------------------
 @mixin clearfix {
@@ -121,6 +133,10 @@ npm install live-server -g
 cd C:\Projects\css-course\advanced\Natours
 live-server
 -> http://localhost:8080/
+----------------------------------------------------
+npm bin -g
+(not in PATH env variable)
+
 ----------------------------------------------------
 Display part of block like polygon top-left/top-right/bot-right/bot-left:
 
