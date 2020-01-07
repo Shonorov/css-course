@@ -9,6 +9,7 @@
     background-position: top;
     /* Display part of block like polygon top-left/top-right/bot-right/bot-left */
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    --webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
     
     &__logo-box {

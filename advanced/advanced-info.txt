@@ -140,11 +140,12 @@ live-server
 ----------------------------------------------------
 npm bin -g
 (not in PATH env variable)
-
 ----------------------------------------------------
 Display part of block like polygon top-left/top-right/bot-right/bot-left:
 
 clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+----------------------------------------------------
+http://unsplash.com - free images.
 ----------------------------------------------------
 Position div in the center of parent:
 
