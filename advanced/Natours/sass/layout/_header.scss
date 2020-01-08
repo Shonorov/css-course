@@ -20,9 +20,7 @@
     
     &__logo {
         height: 3.5rem;
-        &:hover {
-            animation: moveInRight 1s ease-out;
-        }
+        cursor: pointer;
     }
     
     &__text-box {
