@@ -157,7 +157,9 @@ Display part of block like polygon top-left/top-right/bot-right/bot-left:
 clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 ----------------------------------------------------
 http://unsplash.com - free images.
-coverr.co - free videos.
+http://coverr.co - free videos.
+http://easings.net - custom display animations
+http://cubic-bezier.com - custom display animations
 ----------------------------------------------------
 Position div in the center of parent:
 
