@@ -65,6 +65,17 @@ Direct children selector:
 
 & > * {}
 ----------------------------------------------------
+ + adjacent sibling (next to current on the same level) selector
+ ~ general sibling (any on the same level) selector
+
+&__input:placeholder-shown + &__label {}
+----------------------------------------------------
+Check the style button when radio is checked:
+
+&__radio-input:checked ~ &__radio-label &__radio-button::after {
+    opacity: 1;
+}
+----------------------------------------------------
 Fix parent zero width when nested elements are floated (clear fix).
 
 .clearfix::after {
@@ -146,6 +157,7 @@ Display part of block like polygon top-left/top-right/bot-right/bot-left:
 clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 ----------------------------------------------------
 http://unsplash.com - free images.
+coverr.co - free videos.
 ----------------------------------------------------
 Position div in the center of parent:
 
