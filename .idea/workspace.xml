@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd6bd49-d318-4af3-9a54-bfdafa53468a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/layout/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/Natours/sass/components/_popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/layout/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/advanced-info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/advanced-info.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/Natours/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kompetitors" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
