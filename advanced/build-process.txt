@@ -1,3 +1,5 @@
+package.json:
+
 {
   "name": "natours",
   "version": "1.0.0",
@@ -24,3 +26,16 @@
     "postcss-cli": "^7.1.0"
   }
 }
+--------------------------------------------------------------
+Development process:
+
+npm run start
+----------------------------------
+Production build process:
+
+npm run build:css
+--------------------------------------------------------------
+Install and add to devDependencies:
+
+npm install live-server --save-dev
+--------------------------------------------------------------
