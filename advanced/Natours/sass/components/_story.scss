@@ -28,15 +28,23 @@
         width: 15rem;
         height: 15rem;
         float: left; // element must be floated to have shape
-        background-color: orangered;
-        // radius at circle center 50% vertically and 50% horizontally
-        shape-outside: circle(50% at 50% 50%); // how content flows around element
-        --webkit-shape-outside: circle(50% at 50% 50%);
-        // radius at circle center 50% vertically and 50% horizontally
-        clip-path: circle(50% at 50% 50%); // circle shape
-        --webkit-clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
-    
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        
+        @supports (clip-path: polygon(0 0)) or (--webkit-clip-path: polygon(0 0)) {
+            // radius at circle center 50% vertically and 50% horizontally
+            clip-path: circle(50% at 50% 50%); // circle shape
+            --webkit-clip-path: circle(50% at 50% 50%);
+            
+            // radius at circle center 50% vertically and 50% horizontally
+            shape-outside: circle(50% at 50% 50%); // how content flows around element
+            --webkit-shape-outside: circle(50% at 50% 50%);
+            
+            border-radius: unset;
+        }
+        
         @include respond(phone) {
             transform: translateX(-3rem) skewX(0);
         }
@@ -51,7 +59,7 @@
     
     &__text {
         transform: skewX(12deg);
-    
+        
         @include respond(phone) {
             transform: skewX(0);
         }
