@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cd6bd49-d318-4af3-9a54-bfdafa53468a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/pages/_home.scss" afterDir="false" />
-    </list>
+    <list default="true" id="0cd6bd49-d318-4af3-9a54-bfdafa53468a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578667429451</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix padding">
+      <created>1578667603902</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578667603902</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +236,7 @@
     <MESSAGE value="browser support implemented" />
     <MESSAGE value="development/deployment process" />
     <MESSAGE value="wrap up natours" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrap up natours" />
+    <MESSAGE value="fix padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix padding" />
   </component>
 </project>
