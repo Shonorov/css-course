@@ -4,11 +4,7 @@
     <list default="true" id="0cd6bd49-d318-4af3-9a54-bfdafa53468a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/abstracts/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Natours/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578665842562</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="wrap up natours">
+      <created>1578667429451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578667429451</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +232,7 @@
     <MESSAGE value="adaptive image implemented" />
     <MESSAGE value="browser support implemented" />
     <MESSAGE value="development/deployment process" />
-    <option name="LAST_COMMIT_MESSAGE" value="development/deployment process" />
+    <MESSAGE value="wrap up natours" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrap up natours" />
   </component>
 </project>
