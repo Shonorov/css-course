@@ -2,41 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd6bd49-d318-4af3-9a54-bfdafa53468a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/css/style.comp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/css/style.prefix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/aircraft-take-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/bookmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/chevron-thin-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/key.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/location-pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/magnifying-glass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/SVG/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/chevron-thin-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/hotel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/hotel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/hotel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/_layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox/Trillo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox/flex-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox/flex-properties.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox/Trillo/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/Trillo/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox/Trillo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/Trillo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox/Trillo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/Trillo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox/Trillo/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox/Trillo/sass/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox/Trillo/sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox/Trillo/sass/_layout.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578667603902</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="trillo added">
+      <created>1578730998274</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578730998274</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +256,7 @@
     <MESSAGE value="development/deployment process" />
     <MESSAGE value="wrap up natours" />
     <MESSAGE value="fix padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix padding" />
+    <MESSAGE value="trillo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="trillo added" />
   </component>
 </project>

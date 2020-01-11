@@ -1,0 +1,29 @@
+Container:
+
+display: flex; // enable flex container
+
+flex-direction: row; // flex items main axis direction
+
+flex-wrap: nowrap; // enable wrap items to new line
+
+justify-content: flex-start; // positioning items along MAIN axis
+
+align-items: stretch; // positioning items along CROSS axis
+
+align-content: stretch;  // position flex LINES content inside flex CONTAINER and along CROSS axis
+
+-----------------------------------------------
+Item:
+
+align-self: auto; // overrides container align-items on CROSS axis
+
+order: 0; // overrides html tag item ordering
+
+flex-grow: 0; // allows items occupy space on MAIN axis, value is multiplier (0, 1, 2 times bigger..)
+
+flex-shrink: 1; // allow item width shrink (сужение) across MAIN axis, value is multiplier (0 disable shrink, 1 enable shrink, 2 times ...)
+
+flex-basis: auto; // item max-width across MAIN axis, value is length (px, % ...), will decrease at window narrowed
+
+flex: 0 1 auto; // flex-grow flex-shrink flex-basis
+-----------------------------------------------

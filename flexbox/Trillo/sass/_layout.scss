@@ -51,7 +51,7 @@
 .hotel-view {
     background-color: #fff;
 
-    flex: 1;
+    flex: 1; // flex-grow: 1 to occupy all available space
 }
 
 .detail {
@@ -89,7 +89,7 @@
 }
 
 .user-reviews {
-    flex: 1;
+    flex: 1; // occupy remaining space
 
     display: flex;
     flex-direction: column;
